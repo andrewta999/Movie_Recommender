@@ -1,0 +1,86 @@
+.App {
+    background-color: #000000;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Search{
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+}
+
+.Search-Result{
+    position: absolute;
+    background-color: white;
+    color: black;
+    z-index: 99;
+    top: 39px;
+    width: 500px;
+}
+
+.Search-Row{
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    height: 40px;
+    font-weight: bold;
+}
+
+.Search-Row button {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.History{
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.History button{
+    margin: 10px;
+}
+
+.Recommend {
+    margin: 10px;
+}
+
+.card {
+    background-color: #1D2225;
+    padding: 10px;
+    height: 410px;
+    margin-bottom: 20px;
+}
+
+.card img{
+    height: 300px;
+    width: 250px;
+}
+
+.Get-Movie{
+    margin: 0 auto;
+}
+
+.Re {
+    margin: 0 auto;
+}
+
+.Re button {
+    margin: 10px;
+}
+
+.Loading{
+    margin: 0 auto;
+}
