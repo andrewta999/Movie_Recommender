@@ -17,5 +17,5 @@ scipy==1.2.1
 six==1.12.0
 soupsieve==1.8
 tmdbsimple==2.2.0
-urllib3==1.24.1
+urllib3==1.26.5
 Werkzeug==0.15.1
